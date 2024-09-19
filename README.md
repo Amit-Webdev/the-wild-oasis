@@ -5,6 +5,8 @@
 ### 🔗 Live Demo
 [View the live app](https://wild-oasis-webapp.netlify.app)
 
+
+
 ## 📂 Project Structure
 ```bash
 the-wild-oasis/
@@ -24,6 +26,7 @@ the-wild-oasis/
 ```
 
 
+
 ## 🛠️ Tech Stack
 
 ### Frontend:
@@ -40,6 +43,7 @@ the-wild-oasis/
 - Hosted on **Netlify**, ensuring continuous deployment and fast load times.
 
 
+
 ## ✨ Features
 
 - **User Authentication**: Powered by Supabase, users (hotel employees) can securely log in or sign up.
@@ -50,12 +54,21 @@ the-wild-oasis/
 - **Dark Mode**: Users can switch between light and dark themes using the dark mode toggle.
 
 
-## Pages
-### Dashboard :-
-
-
 
 ## 🛡️ Security
 
 - **Supabase Auth** ensures only verified users can access the application. Passwords are securely stored and encrypted.
 - **Real-Time Data**: The app uses Supabase's real-time features to sync bookings data across devices.
+
+
+
+## Pages
+### Dashboard :-
+![dashboard](./Dashboard.png)
+### Bookings :-
+![Bookings](./Bookings.png)
+### Cabins :-
+![Cabins](Cabins.png)
+### User update :-
+![User update](Userupdate.png)
+
