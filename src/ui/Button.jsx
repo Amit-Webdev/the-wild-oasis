@@ -46,6 +46,26 @@ const variations = {
       background-color: var(--color-red-800);
     }
   `,
+
+  authSignup: css`
+    background-color: rgb(79, 70, 229);
+    color: #fff;
+
+    /* Light Glow Effect on Hover */
+    &:hover {
+      box-shadow: 0 0 15px 2px rgba(79, 70, 130, 0.7); /* Indigo color with a glow effect */
+    }
+  `,
+
+  authLogin: css`
+    background-color: rgb(79, 70, 229);
+    color: #fff;
+
+    /* Light Glow Effect on Hover */
+    &:hover {
+      box-shadow: 0 0 15px 2px rgba(79, 70, 130, 0.7); /* Indigo color with a glow effect */
+    }
+  `,
 };
 
 const Button = styled.button`

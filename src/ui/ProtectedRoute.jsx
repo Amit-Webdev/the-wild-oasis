@@ -21,7 +21,7 @@ function ProtectedRoute({ children }) {
   useEffect(
     function () {
       // in the beginning when the data loads the user is not authenticated, even if he is. So to avoid redirecting authenticated users to login page we also check for isLoading
-      if (!isAuthenticated && !isLoading) navigate("/login");
+      if (!isAuthenticated && !isLoading) navigate("/auth");
     },
     [isAuthenticated, navigate, isLoading]
   );

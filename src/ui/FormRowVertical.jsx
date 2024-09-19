@@ -6,6 +6,8 @@ const StyledFormRow = styled.div`
   flex-direction: column;
   gap: 0.8rem;
   padding: 1.2rem 0;
+
+  width: 60rem;
 `;
 
 const Label = styled.label`
